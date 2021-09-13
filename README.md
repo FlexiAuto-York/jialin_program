@@ -4,11 +4,17 @@ This project aims to develop an algorithm to make a swarm of aerial robots find 
 
 This includes
 (1) Coppeliasim
+    
     a. According to the different method, different ROS message is implemented in these scenes.
+    
     b. The interface has been recomplied with customized ROS message
+    
 (2)ROS_Programme
+
     a. this includes low-level controller and swarm algorithms(PFSM, Manta Ray and B&F)
+
     b. this includes 2 ROS nodes, only in Manta Ray method, the node "Manta best position" should be runed
+    
     c. when different method is transfered, the different swarm algorithm's controller should be modified in "drone.h"
 
 It has been proved in following three shapes
